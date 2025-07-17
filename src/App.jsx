@@ -7,11 +7,6 @@ function App() {
   return (
     <div className="container mt-4">
     <FormularioColor></FormularioColor>
-    <div className='row'>
-    <div className='col-md-4 mb-4'>
-      <ItemColor></ItemColor>
-    </div>
-    </div>
     </div>
   )
 }
