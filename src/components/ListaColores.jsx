@@ -1,13 +1,13 @@
 import React from 'react';
 import ItemColor from './ItemColor';
 
-const ListaColores = ({colores}) => {
+const ListaColores = ({colores, borrarColor}) => {
     return (
         <div className='row mt-4'>
             {
                 colores.map((item, indice)=>(
                     <div className="col-md-4 mb-4">
-                        <ItemColor key={indice} nombreColor={item}></ItemColor>
+                        <ItemColor key={indice} nombreColor={item} borrarColor={borrarColor}></ItemColor>
                     </div>
                 ))}
         </div>
