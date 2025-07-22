@@ -3,7 +3,7 @@ import {Card, Button} from "react-bootstrap"
 
 const ItemColor = ({nombreColor, borrarColor}) => {
     return (
-            <Card>
+            <Card className='rounded-0'>
       <Card.Header><strong>{nombreColor}</strong></Card.Header>
       <Card.Body>
         <div
